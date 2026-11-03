@@ -1,0 +1,48 @@
+[
+ {
+  "draft": "Qwen3-4B",
+  "target": "Qwen3-32B",
+  "k": 3,
+  "n_prompts": 119,
+  "acceptance_length": 3.2858149365899485,
+  "draft_acceptance_rate": 0.7619383121966494,
+  "alpha_leviathan": 0.8700822065167209,
+  "per_pos_acceptance": [
+   0.8588539220291217,
+   0.753640206669798,
+   0.6733208078910287
+  ],
+  "c_measured": 0.32880766633224884,
+  "c_n_prompts": 119,
+  "speedup_predicted": 1.6541365752659263,
+  "speedup_tpot_measured": 1.2099728135161891,
+  "speedup_e2e_measured": 0.926118801754043,
+  "output_match_vs_target": 0.6134453781512605,
+  "gpu": "NVIDIA RTX PRO 5000 72GB Blackwell",
+  "vllm": "0.31.0"
+ },
+ {
+  "draft": "Qwen3-4B",
+  "target": "Qwen3-32B",
+  "k": 5,
+  "n_prompts": 119,
+  "acceptance_length": 4.3212530712530715,
+  "draft_acceptance_rate": 0.6642506142506143,
+  "alpha_leviathan": 0.8666089283919605,
+  "per_pos_acceptance": [
+   0.8406019656019657,
+   0.7272727272727273,
+   0.6464987714987716,
+   0.581081081081081,
+   0.5257985257985258
+  ],
+  "c_measured": 0.32880766633224884,
+  "c_n_prompts": 119,
+  "speedup_predicted": 1.6343382845505252,
+  "speedup_tpot_measured": 1.5051780306056362,
+  "speedup_e2e_measured": 0.9737928990008603,
+  "output_match_vs_target": 0.5966386554621849,
+  "gpu": "NVIDIA RTX PRO 5000 72GB Blackwell",
+  "vllm": "0.31.0"
+ }
+]
