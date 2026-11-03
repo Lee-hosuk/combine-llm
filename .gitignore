@@ -1,0 +1,7 @@
+results_*/
+results_*.tar.gz
+all.log
+__pycache__/
+*.pyc
+.env
+.venv/
